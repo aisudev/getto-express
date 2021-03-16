@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*Color Swatches*/
+/*
+    Themed Orange: FF6D00
+    Themed Purple: 3C096C
+    Gray: 242424
+    Whitish: f2f2f2
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+    
+}
+
+h1 {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+p {
+    margin: 0px;
+    font-weight: 200;
+}
+
+.head-section {
+    padding: 40px;
+    background-color:#f9f9f9;
+    border: none;
+    border-bottom: 1px solid #ededed;
+    /*box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.10);*/ 
+}
+
+.logo-image {
+    width: 100px;
+    max-width: 100%;
+    display: flex;
+}
+
+.logo span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #4e4e4e;
+}
+
+.describe-app {
+    margin-top: 0px;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+.button-set{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-but {
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    background-color: #FF6D00;
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+    outline: none !important;
+}
+
+.subscribe-but:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #ff994b;
+}
+
+.subscribe-but:active{
+    background-color: #974200;
+}
+
+.learnmore-but {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #242424;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #ededed;
+    transition: .2s;
+    outline: none !important;
+}
+
+.learnmore-but:hover{
+    color: #4b4b4b;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+/*** Content box ***/
+.why-you-use {
+    background: rgb(240,53,0);
+    background: linear-gradient(0deg, rgba(240,53,0,1) 0%, rgba(255,109,0,1) 100%);
+}
+
+.heading-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 50px 10px 40px 10px;
+}
+
+.content-box {
+    padding: 0px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: -10px;
+}
+
+/*Mobile Responsing*/
+@media only screen and (max-width: 600px){
+
+.head-section h1 {
+    font-size: 1.28em;
+}
+
+.describe-app {
+    display: block;
+}
+
+.heading-text {
+    font-size: 1.5em;
+}
+
+.content-box {
+    display: block;
+}
+
+}
